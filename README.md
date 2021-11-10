@@ -19,11 +19,11 @@ Um layout final bem elaborado e desenhado aponta para um diferencial seu, mas n�
 ## O Desafio
 
 Este é o layout que deverá ser produzido:
-![layout](challenge.png)
+![layout](layout.png)
 
 ## Especificação das funcionalidades
 
-Ao finalizar o desafio, o usuário deverá estar habilitado a cadastrar novas clínicas no formulário. Ao buscar a rede via geo-localização o mapa deverá pinar as clínicas da localização informada. Na tabela deverá conter um botão para excluir a clinica, que deverá removê-la do banco, mapa e tabela.
+Ao finalizar o desafio, o usuário deverá estar habilitado a cadastrar novas clínicas no formulário. Ao buscar a rede via geo-localização o mapa deverá pinar as clínicas da localização informada e carregar as clínicas nos cards inferiores.
 
 #### POST /clinics
 
@@ -43,16 +43,11 @@ Você deve fazer um cadastro de clínicas, que terá os seguintes campos:
 
 Estes dados devem ser salvos numa tabla _clinics_ do PostgreSQL.
 
-Note que no formulário há apenas um campo para colocar o endereço. Isso se deve ao fato de que o usuário deverá preencher apenas uma linha de endereço. Ao clicar em **Buscar**, os dados deste campo devem ser enviados à API do Google para buscar as informações de localização e incorporados ao objeto. Neste ponto, os campos de latitude e longitude devem ser preenchidos, mas devem ficar como _disabled_. Ao clicar em **Salvar**, salva os dados no banco, limpa o formulário e atualiza o mapa e a tabela. O botão **Resetar Cadastro** deve limpar a base de clinicas, tabela e pontos do mapa.
+Note que no formulário há apenas um campo para colocar o endereço. Isso se deve ao fato de que o usuário deverá preencher apenas uma linha de endereço. Ao clicar em **Buscar**, os dados deste campo devem ser enviados à API do Google para buscar as informações de localização e incorporados ao objeto. Neste ponto, os campos de latitude e longitude devem ser preenchidos, mas devem ficar como _disabled_. Ao clicar em **Salvar**, salva os dados no banco, limpa o formulário e atualiza o mapa e a lista.
 
 #### GET /clinics
 
 A requisição GET para /clinics deve trazer um json com as informações das clínicas que existem no banco e exibí-las no mapa e na tabela.
-
-#### DELETE /clinics/:id
-
-Há um botão na tabela para excluir a clínica. Ele deverá remover a clínica desejada tanto do banco quanto do mapa/tabela.
-
 
 ### Algumas dicas e observações
 > Obs 1.: Fique a vontade para utilizar qualquer 3rd party;

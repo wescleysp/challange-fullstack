@@ -10,7 +10,7 @@ Um layout final bem elaborado e desenhado aponta para um diferencial seu, mas n�
 
 2. Desenvolver o projeto utilizando: 
     - PostgreSQL, Express.js, React.js e Node.js(Typescript é um diferencial)
-    - [TypeORM](https://typeorm.io/) ou [Sequelize](https://sequelize.org/) para modelagem dos dados a serem gravados no banco
+    - [TypeORM](https://typeorm.io/) ou [Sequelize](https://sequelize.org/) para modelagem dos dados a serem gravados no banco ou qualquer outro de sua preferencia
     - HTML e CSS (ou algum pré-processador)
     - [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/intro?hl=pt-br) (se precisar de uma API Key do Google, basta solicitar por e-mail)
     - [Leaflet](http://leafletjs.com/) para manipulação do mapa. O mapa a ser utilizado pode ser qualquer um (Google, Mapbox, OSM, etc).

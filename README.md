@@ -6,7 +6,7 @@ Um layout final bem elaborado e desenhado aponta para um diferencial seu, mas n�
 
 ## Regras
 
-1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para felipe.ramos@temsaude.com no prazo de 7 dias após o recebimento deste desafio;
+1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para wescleysp@gmail.com no prazo de 7 dias após o recebimento deste desafio;
 
 2. Desenvolver o projeto utilizando: 
     - PostgreSQL, Express.js, React.js e Node.js(Typescript é um diferencial)
@@ -59,4 +59,4 @@ A requisição GET para /clinics deve trazer um json com as informações das cl
 
 
 ## Dúvidas
-Envie suas dúvidas diretamente para felipe.ramos@temsaude.com ou abrindo uma issue.
+Envie suas dúvidas diretamente para wescleysp@gmail.com ou abrindo uma issue.
